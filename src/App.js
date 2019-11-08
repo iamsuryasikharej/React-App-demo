@@ -9,8 +9,8 @@ class  App extends  Component{
         < div
     className = "App" >
             < Welcome name="surya" ><p>Hello </p></Welcome>
-            < Welcome name="Ramu kaka" ><p>Hello</p></Welcome>
-            < Welcome name="Gulshan" > <p>Hello</p></Welcome>
+            < Welcome name="Ram" ><p>Hello</p></Welcome>
+            < Welcome name="Shyam" > <p>Hello</p></Welcome>
         < /div>
   )
     ;
