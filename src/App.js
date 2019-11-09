@@ -3,6 +3,7 @@ import React,{Component} from 'react';
 import "./App.css";
 import {Welcome} from "./components/Welcome";
 import {Greet} from "./components/Greet";
+import {MyButton} from "./components/MyButton";
 
 class  App extends  Component{
   render() {
@@ -12,7 +13,7 @@ class  App extends  Component{
             < Welcome name="surya" ><p>Hello </p></Welcome>
 
             < Welcome name="Ramu kaka" ><button>click me</button></Welcome>
-            < Welcome name="Gulshan" > <p>Hello</p></Welcome>
+            < Welcome name="Gulshan" > <p>Hello<MyButton></MyButton></p></Welcome>
             <Greet name="Sormila"><p>Childern of class component</p></Greet>
             < Welcome name="Ram" ><p>Hello</p></Welcome>
             < Welcome name="Shyam" > <p>Hello</p></Welcome>
