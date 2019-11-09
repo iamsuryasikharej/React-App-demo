@@ -10,10 +10,10 @@ class  App extends  Component{
         < div
     className = "App" >
             < Welcome name="surya" ><p>Hello </p></Welcome>
+
             < Welcome name="Ramu kaka" ><button>click me</button></Welcome>
             < Welcome name="Gulshan" > <p>Hello</p></Welcome>
-            <Greet name="Sormila"><p>Childern of class component</p></Greet>
-        < /div>
+
   )
     ;
   }
