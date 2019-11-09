@@ -13,7 +13,11 @@ class  App extends  Component{
 
             < Welcome name="Ramu kaka" ><button>click me</button></Welcome>
             < Welcome name="Gulshan" > <p>Hello</p></Welcome>
+            <Greet name="Sormila"><p>Childern of class component</p></Greet>
+            < Welcome name="Ram" ><p>Hello</p></Welcome>
+            < Welcome name="Shyam" > <p>Hello</p></Welcome>
 
+        < /div>
   )
     ;
   }
